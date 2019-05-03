@@ -13,9 +13,9 @@ Can create new HTML events in the page
 
 DOM Selectors
 --------------
-getElementsByTagName
-getElementsByClassName
-getElementById
+getElementsByTagName  //array
+getElementsByClassName  //array
+getElementById     //value
 
 querySelector
 querySelectorAll
@@ -31,11 +31,11 @@ classList //best
 
 classList.add
 classList.remove
-classList.toggle
+classList.toggle   //remove if exist if not add
 
 ##Bonus
-innerHTML //DANGEROUS
-
+innerHTML //DANGEROUS(can change the html is applied)
+innerText //to add as text not applied
 parentElement
 children
 

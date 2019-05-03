@@ -21,9 +21,9 @@ var user = [{
 ]*/
 
 
-var database = {username:"Uzair", password:"123"}
+var database = [{username:"Uzair", password:"123"},{username:"Bashair",password:"456"},{username:"Hamza",password:"789"}]
 
-var newsfeed = [{friend:"Bashair" ,status:"I am feeling Sad"}, {friend:"Hamza",status:"This is Spartaaaaaaaa"}]
+var newsfeed = [{friend:"Bashair" ,status:"Kadi wich pawaya hai"}, {friend:"Hamza",status:"This is Spartaaaaaaaa"}]
 
 
 temp= prompt("Enter your Name");
@@ -43,6 +43,19 @@ else
     console.log("Incorect Username or password");
 }
 
+
+var cities=[
+    "Lahore",
+    "Krachi"
+
+];
+for(var i=0;i<cities.length;i++){
+    console.log(cities[i]);
+}
+database.forEach(function (c) {
+    console.log(c);
+
+})
 
 /*
 

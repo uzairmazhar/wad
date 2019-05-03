@@ -17,3 +17,19 @@
             -8px -8px 0 firebrick,
             -30px 20px 40px dimgrey
 }
+
+.done {
+    text-decoration: line-through;
+}
+
+li{
+    cursor:pointer;
+}
+
+.del{
+    background-color: #F44336;
+    color: wheat;
+    border-radius: 10px;
+    margin-left: 50px;
+    padding: 2px;
+}
