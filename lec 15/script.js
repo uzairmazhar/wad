@@ -38,7 +38,6 @@ input.addEventListener("keypress",function(o){
     console.log(o);
 
     if(input.value.length>0&& o.which ===13) {
-
         var li=document.createElement("li");
         var btn=document.createElement("button");
         li.append(document.createTextNode(input.value));
@@ -49,7 +48,6 @@ input.addEventListener("keypress",function(o){
         input.value='';
         addDeleteListener();
         addtoggle();
-
     }
     });
 
