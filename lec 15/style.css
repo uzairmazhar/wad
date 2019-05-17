@@ -22,14 +22,6 @@
     text-decoration: line-through;
 }
 
-li{
-    cursor:pointer;
-}
-
-.del{
-    background-color: #F44336;
-    color: wheat;
-    border-radius: 10px;
-    margin-left: 50px;
-    padding: 2px;
+li {
+    cursor: pointer;
 }
