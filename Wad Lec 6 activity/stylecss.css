@@ -1,3 +1,13 @@
+h1{
+    background-color:beige;
+    text-align:-webkit-center;
+    border-radius: 25px;
+    border-style: outset;
+}
+img{
+    box-shadow: 10px 10px darkgoldenrod;
+    cursor: grabbing
+}
 h1:hover{
     background-color: rgb(255, 255, 0);
 }

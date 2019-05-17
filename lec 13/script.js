@@ -21,9 +21,27 @@ var user = [{
 ]*/
 
 
-var database = [{username:"Uzair", password:"123"},{username:"Bashair",password:"456"},{username:"Hamza",password:"789"}]
+temp = prompt ("Enter first num");
+temp2 = prompt ("Enter second num");
+temp3 = prompt ("Enter operation");
 
-var newsfeed = [{friend:"Bashair" ,status:"Kadi wich pawaya hai"}, {friend:"Hamza",status:"This is Spartaaaaaaaa"}]
+if(temp3=="+"){
+    console.log("Addition = "+temp+temp2);
+}
+if(temp3=="-"){
+    console.log("Subtraction = "+temp-temp2);
+}
+if(temp3=="*"){
+    console.log("Multiplication = "+temp*temp2);
+}
+if(temp3=="/"){
+    console.log("Division = "+temp/temp2);
+}
+
+
+var database = [{username:"Uzair", password:"123"},{username:"Bashair",password:"456"},{username:"Hamza",password:"789"}];
+
+var newsfeed = [{friend:"Bashair" ,status:"Kadi wich pawaya hai"}, {friend:"Hamza",status:"This is Spartaaaaaaaa"}];
 
 
 temp= prompt("Enter your Name");
@@ -35,7 +53,6 @@ if(temp == database.username)
     {
         console.log("Welcome "+temp);
         console.log(newsfeed[0],newsfeed[1]);
-
     }
 }
 else
@@ -62,5 +79,6 @@ database.forEach(function (c) {
 var calculator = function (){
     console.log("Calc Function Expression");
 }
+
 
 calculator();*/
